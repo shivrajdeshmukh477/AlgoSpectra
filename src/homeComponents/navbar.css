@@ -1,0 +1,48 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Set your preferred background color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    color: white;
+  }
+  
+  .logo {
+    /* background-image: url('./images/sudoku.png'); */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #FF5733; /* Change the color on hover */
+  }
+  
+  .login-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #FF4222; /* Darker color on hover */
+  }
+  
